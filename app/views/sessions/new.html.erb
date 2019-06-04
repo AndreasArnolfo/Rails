@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <body class="coucou">
+  <div class="container">
+  <div class="sign">
+      <div class="neon-blue" id="title">M<span id="fade">y</span> Items</div>
+      <div class="neon-blue"> With <span class="neon-purple" id="trav">Thomas</span> And <span class="neon-purple">Andreas</span></div>
+   </div>
+  </div>
+
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <p id=”alert”><%= alert %></p>
+
+    <%= form_tag sessions_path do |form| %>
+
+      <div class="field">
+        <%= label_tag :email %>
+        <%= text_field_tag :email %>
+      </div>
+      <div class="field">
+        <%= label_tag :password %>
+        <%= password_field_tag :password %>
+      </div>
+      <button class="actions btn">
+        <%= "Login" %>
+      </button>
+      <a href="/users/new" class="actions btn2">
+        <%= "Register" %>
+      </a>
+
+    <% end %>
+
+  </body>
+</html>

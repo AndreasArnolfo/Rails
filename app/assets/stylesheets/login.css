@@ -12,18 +12,88 @@ input {
   font-size: 16px;
   outline: 0;
 }
-
-button {
-  position: absolute;
-  height: 100%; width: 50px;
-  top: 0; right: 0;
-  background: greenyellow;
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  outline: 0;
+label {
+  color: #fff;
 }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  border: 1px solid #7eafb4;
+  outline: none;
+  color: #68939c;
+  line-height: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  width: auto;
+  white-space: pre-wrap;
+  padding: 10px 1.8em;
+  transition: all 0.3s ease;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-family: 'Dosis', sans-serif;
+  top: 50%;
+  left: 50%;
+}
+@media (min-width: 480px) {
+  .btn {
+    width: auto;
+  }
+}
+.btn:hover {
+  animation: intermittente 0.01s infinite alternate;
+  box-shadow: 0px 0px 35px rgba(153, 129, 176, 1), 0 0 11px rgba(153, 129, 176, 1), 0 0 2px rgba(153, 129, 176, 1), 0 0 1px rgba(153, 129, 176, 1), 0 0px 17px rgba(153, 129, 176, 1), inset 0px 0 17px rgba(153, 129, 176, 1), inset 0px 0 30px rgba(153, 129, 176, 1);
+}
+
+.btn2 {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  border: 1px solid rgba(153, 129, 176, 1);
+  outline: none;
+  color: rgb(143, 115, 168);
+  line-height: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  width: auto;
+  white-space: pre-wrap;
+  padding: 10px 1.8em;
+  transition: all 0.3s ease;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-family: 'Dosis', sans-serif;
+  top: 50%;
+  left: 50%;
+}
+@media (min-width: 480px) {
+  .btn2 {
+    width: auto;
+  }
+}
+.btn2:hover {
+  animation: intermittente 0.01s infinite alternate;
+  box-shadow: 0px 0px 35px #7eafb4, 0 0 11px #7eafb4, 0 0 2px #7eafb4, 0 0 1px #7eafb4, 0 0px 17px #7eafb4, inset 0px 0 17px #7eafb4, inset 0px 0 30px #7eafb4;
+}
+
 
 
 /* Eye open */
